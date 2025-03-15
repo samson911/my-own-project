@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class App</title>
+    <link rel="stylesheet" href="vv.css">
+    <!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-pzjw8f+ua7Kw1TIq0xFfU9BzKxmpQ5p6oyvG0pL8cWAwE2KZRp4y7eQLOJM5dz1z" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#course-rep">Course Rep</a></li>
+            <li><a href="#ideas">Ideas</a></li>
+            <li><a href="#calendar">Calendar</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to the Class App</h1>
+        <p>Access important information from the course rep and share your ideas!</p>
+    </section>
+
+    <!-- Course Rep Section -->
+    <section id="course-rep">
+        <h2>Course Rep Announcements</h2>
+        <div id="announcements">
+            <!-- Course Rep announcements will go here -->
+        </div>
+        <button onclick="postAnnouncement()">Post Announcement</button>
+    </section>
+
+    <!-- Idea Sharing Section -->
+    <section id="ideas">
+        <h2>Share Your Ideas</h2>
+        <div id="idea-list">
+            <!-- Ideas will be listed here -->
+        </div>
+        <button onclick="shareIdea()">Share Idea</button>
+    </section>
+
+    <!-- Calendar Section -->
+    <section id="calendar">
+        <h2>Class Calendar</h2>
+        <div id="calendar-content">
+            <!-- Calendar events go here -->
+        </div>
+    </section>
+
+    <script src="vv.js"></script>
+</body>
+</html>
